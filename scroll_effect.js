@@ -147,8 +147,16 @@ var mapParallax = new ScrollMagic.Scene({
 
 var coscoParallax = new ScrollMagic.Scene({
     triggerElement: ".event2",
-    triggerHook:0,
-    duration:'30%'
+    triggerHook:1,
+    duration:'150%'
 })
-.setTween(TweenMax.from('.cosco', 1, {y:'30%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.cosco', 1, {y:'400%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event2",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.basketball', 1, {y:'-300%', ease:Power0.easeNone}))
 .addTo(controller);

@@ -46,8 +46,8 @@ body{
 }
 .image {
     top: -50%;
-    left: 288px;
-    margin-top: 15%;
+    left: 188px;
+    margin-top: -623px;
     background-size: contain;
     position: absolute;
     background-repeat: no-repeat;
@@ -66,6 +66,8 @@ body{
 .event5 .image, .event6 .image{
     width: 500px;
     height: 400px;
+    left: 0;
+    margin-top: -550px;
 }
 .event {
     position: relative;
@@ -82,20 +84,22 @@ body{
     clip: rect(auto, auto, auto, auto);
 }
 .text-event-1 {
-/*	top: 30%!important;*/
+    margin-top:  300px!important
 }
 .text-event {
 	position: absolute;
-/*    left: 50%;*/
+    left: 600px;
 /*    top: -70%;*/
     max-width: 500px;
 /*    margin-left: 0px;*/
-    margin-top: 15%;
+    margin-top: -400px;
 }
+/*
 .text-event-6, .text-event-5 {
 	top: -70%;
     left: 60%;
 }
+*/
 .opacity-zero {
 	opacity: 0;
 }
@@ -105,7 +109,7 @@ body{
     width: 400px;
     height: 500px;
     margin-top: 250px;
-    left: 216px;
+    left: 116px;
     position: absolute;
     background-image: url(img/01-ubermatch/assets/line.png);
 }
@@ -118,7 +122,7 @@ body{
 }
 .red-pin {
 	background-image: url(img/01-ubermatch/assets/map_pin2.png);
-    left: 263px;
+    left: 163px;
     margin-top: 173px;
     height: 120px;
     width: 120px;
@@ -126,14 +130,17 @@ body{
 .black-pin {
 	background-image: url(img/01-ubermatch/assets/map_pin1.png);
     margin-top: 387px;
-    left: 171px;
+    left: 71px;
 }
 .blue-pin {
 	background-image: url(img/01-ubermatch/assets/map_pin3.png);
     margin-top: 485px;
-    left: 560px;
+    left: 460px;
 }
 .cosco {
+    margin-top: -1050px;
+    background-position: center;
+    
 	position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
@@ -142,5 +149,210 @@ body{
     height: 200px;
     left: 100px;
     top: 100px;
-    transform: translate3d(0px, 2.6px, 0px);
+
+}
+.basketball{
+     
+        margin-top: -140px;
+        background-position: center;
+
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url(img/02-allstarz/assets/basketball_blur.png);
+        width: 200px;
+        height: 200px;
+        left: 800px;
+        top: 100px;
+
+    
+}
+.spoon{
+    left: -30px;
+    top: -468px;
+    background-position: center;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/fork_n_spoon.png);
+}
+.bottomfeeder {
+    top: -219px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.bottomfeeder1 {
+	background-image: url(img/04-go-buzzinga/assets/line_cart.png);
+}
+.bottomfeeder2 {
+	background-image: url(img/04-go-buzzinga/assets/line_projector.png);
+    left: 570px;
+}
+.bottomfeeder3 {
+    background-image: url(img/04-go-buzzinga/assets/line_dining.png);
+    left: 700px;
+    width: 115px;
+}
+.bottomfeeder4 {
+    background-image: url(img/04-go-buzzinga/assets/line_burger.png);
+    left: 850px;
+    width: 93px;
+    height: 82px;
+}
+.bottomfeeder5 {
+    background-image: url(img/04-go-buzzinga/assets/line_basketball.png);
+    left: 965px;
+    width: 93px;
+    height: 82px;
+}
+.bottomfeeder6 {
+    background-image: url(img/04-go-buzzinga/assets/line_fork_spoon.png);
+    left: 1070px;
+    width: 93px;
+    height: 82px;
+}
+.burger{
+    left: -20px;
+    top: -690px;
+
+    background-position: center;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/burger.png);
+}
+.cart{
+    left: 10px;
+    top: -330px;
+
+    background-position: center;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/shopping_cart.png);
+}
+.bball{
+    left: 75px;
+    top: -481px;
+
+    background-position: center;
+    width: 180px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/basketball.png);
+}
+.shopping-bag {
+    left: 428px;
+    top: -640px;
+
+    background-position: center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/shopping.png);
+}
+.bat{
+    left: 395px;
+    top: -450px;
+
+    background-position: center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/bat.png);
+}
+.bbq{
+    left: 124px;
+    top: -266px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/grill.png);
+}
+.beer {
+    left: 396px;
+    top: -296px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/04-go-buzzinga/assets/beer.png);
+
+}
+.rose{
+    left: -25px;
+    top: -460px;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/05-sangini/assets/big_petal.png);
+}
+.rose2{
+    left: 396px;
+    top: -296px;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/05-sangini/assets/petals1.png);
+}
+.petal2{
+    left: 30px;
+    top: -380px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/05-sangini/assets/petals2.png);
+    
+}
+.rose3{
+    left: -15px;
+    top: -540px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/05-sangini/assets/petals3.png);
+}
+.rose4{
+    left: 900px;
+    top: -246px;
+    background-position: center;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/05-sangini/assets/petals4.png);
 }
