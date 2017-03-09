@@ -3,6 +3,69 @@ body{
     margin: 0px;
 }
 /*delete end*/
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 13px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+p, li {
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 500px){
+    html{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 570px){
+    html{
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 620px){
+    html{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 680px){
+    html{
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 720px){
+    html{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 800px){
+    html{
+        font-size: 19px;
+    }
+}
+@media screen and (min-width: 860px){
+    html{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 920px){
+    html{
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1000px){
+    html{
+        font-size: 22px;
+    }
+}
+
+
 .event1 {
     background-image: url(img/01-ubermatch/assets/uber_background.png);
 }
@@ -84,15 +147,25 @@ body{
     clip: rect(auto, auto, auto, auto);
 }
 .text-event-1 {
-    margin-top:  300px!important
+    margin-top:  180px!important;
+}
+.text-event span{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.text-event p {
+    font-size: .8rem;
 }
 .text-event {
+    letter-spacing: 1.2px;
 	position: absolute;
     left: 600px;
 /*    top: -70%;*/
     max-width: 500px;
 /*    margin-left: 0px;*/
-    margin-top: -400px;
+    margin-top: -545px;
+    font-family: Oxygen;
+    color: rgb(255, 255, 255);
 }
 /*
 .text-event-6, .text-event-5 {
@@ -355,4 +428,14 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(img/05-sangini/assets/petals4.png);
+}
+.btn-orange {
+    background-color: rgb(255, 113, 0);
+    box-shadow: 0px 6px 10px 0px rgba(103, 114, 122, 0.3);
+    font-family: "Oxygen";
+    color: rgb(255, 255, 255);
+    font-weight: bold;  
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 33px;
 }

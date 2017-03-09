@@ -1,0 +1,52 @@
+//TEXT
+
+.heading {
+  font-size: 28px;
+  font-family: "Oxygen";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  position: absolute;
+  left: 773.031px;
+  top: 169.7px;
+  z-index: 19;
+}
+
+.paragraph {
+  font-size: 22px;
+  font-family: "Oxygen";
+  color: rgb(255, 255, 255);
+  line-height: 1.591;
+  position: absolute;
+  left: 774.766px;
+  top: 268.492px;
+  width: 594px;
+  height: 163px;
+  z-index: 20;
+}
+
+//BUTTON
+
+.btn_bg {
+  background-color: rgb(255, 113, 0);
+  box-shadow: 0px 6px 10px 0px rgba(103, 114, 122, 0.3);
+  position: absolute;
+  left: 775px;
+  top: 425px;
+  width: 180px;
+  height: 42px;
+  z-index: 29;
+}
+
+.btn_text {
+  font-size: 18px;
+  font-family: "Oxygen";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.944;
+  position: absolute;
+  left: 828.125px;
+  top: 464.066px;
+  z-index: 32;
+}
