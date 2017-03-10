@@ -374,7 +374,7 @@ p, li {
 
 }
 .rose{
-    left: -25px;
+    left: -20px;
     top: -460px;
     background-position: center;
     width: 100px;
@@ -407,9 +407,9 @@ p, li {
     background-image: url(img/05-sangini/assets/petals2.png);
     
 }
-.rose3{
-    left: -15px;
-    top: -540px;
+.rose3 {
+    left: 0px;
+    top: -572px;
     background-position: center;
     width: 50px;
     height: 50px;
@@ -422,8 +422,8 @@ p, li {
     left: 900px;
     top: -246px;
     background-position: center;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
@@ -438,4 +438,101 @@ p, li {
     font-size: 18px;
     letter-spacing: 1px;
     border-radius: 33px;
+}
+.bubble{
+    
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bubble1 {
+	background-image: url(img/03-night-observer/assets/circle1.png);
+    left: 396px;
+    top: -296px;
+}
+.bubble2 {
+    background-image: url(img/03-night-observer/assets/circle2.png);
+    left: 60px;
+    top: -758px;
+    width: 100px;
+    height: 100px;
+}
+.bubble3 {
+    background-image: url(img/03-night-observer/assets/circle3.png);
+    left: 1000px;
+    top: -696px;
+    width: 100px;
+    height: 100px;
+}
+.bubble4 {
+    background-image: url(img/03-night-observer/assets/circle4.png);
+    left: 10px;
+    top: -400px;
+    width: 180px;
+    height: 180px;
+}
+.bubble5 {
+    background-image: url(img/03-night-observer/assets/circle5.png);
+    left: 396px;
+    top: -296px;
+}
+.bubble6 {
+    background-image: url(img/03-night-observer/assets/circle6.png);
+    left: 699px;
+    top: -650px;
+    height: 80px;
+    width: 80px;
+}
+.bubble7 {
+    background-image: url(img/03-night-observer/assets/circle7.png);
+    left: 890px;
+    top: -160px;
+    height: 100px;
+    width: 100px;
+
+}
+.bubble8 {
+    background-image: url(img/03-night-observer/assets/circle8.png);
+    left: 100px;
+    top: -700px;
+}
+.petals{
+    
+    background-position: center;
+    
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.yellowPetal{
+    width: 50px;
+    height: 50px;
+    background-image: url(img/05-sangini/assets/yellow_petals2.png);
+    left: 0px;
+    top: -386px;
+}
+.yellowPetal2 {
+	background-image: url(img/05-sangini/assets/yellow_petals1.png);
+    width: 50px;
+    height: 70px;
+    left: 437px;
+    top: -488px;
+}
+.whitePetal {
+    background-image: url(img/05-sangini/assets/white_petals1.png);
+    width: 100px;
+    height: 100px;
+    left: 326px;
+    top: -630px;
+}
+.whitePetal2 {
+    background-image: url(img/05-sangini/assets/white_petals2.png);
+    width: 40px;
+    height: 40px;
+    left: 860px;
+    top: -200px;
+
 }

@@ -150,7 +150,14 @@ var coscoParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'150%'
 })
-.setTween(TweenMax.from('.cosco', 1, {y:'400%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.cosco', 1, {y:'400%', ease:Power0.easeNone}, {rotation: 360, ease: Linear.easeNone}))
+.addTo(controller);
+var coscoParallax = new ScrollMagic.Scene({
+    triggerElement: ".event2",
+    triggerHook:1,
+    duration:'150%'
+})
+.setTween(TweenMax.from('.cosco', 1, {rotation: 360, ease: Linear.easeNone}))
 .addTo(controller);
 
 var basketballParallax = new ScrollMagic.Scene({
@@ -159,4 +166,77 @@ var basketballParallax = new ScrollMagic.Scene({
     duration:'300%'
 })
 .setTween(TweenMax.from('.basketball', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event2",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.basketball', 1, {rotation: 360, ease: Linear.easeNone}))
+.addTo(controller);
+
+//bubble parallax
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble1', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble2', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble3', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble4', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble5', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble6', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble7', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var basketballParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bubble8', 1, {y:'-300%', ease:Power0.easeNone}))
 .addTo(controller);

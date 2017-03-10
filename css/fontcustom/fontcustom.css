@@ -1,0 +1,45 @@
+/*
+  Icon Font: fontcustom
+*/
+
+@font-face {
+  font-family: "fontcustom";
+  src: url("./fontcustom_30242e6dc7331a62c27faa8d4642f31f.eot");
+  src: url("./fontcustom_30242e6dc7331a62c27faa8d4642f31f.eot?#iefix") format("embedded-opentype"),
+       url("./fontcustom_30242e6dc7331a62c27faa8d4642f31f.woff") format("woff"),
+       url("./fontcustom_30242e6dc7331a62c27faa8d4642f31f.ttf") format("truetype"),
+       url("./fontcustom_30242e6dc7331a62c27faa8d4642f31f.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "fontcustom";
+    src: url("./fontcustom_30242e6dc7331a62c27faa8d4642f31f.svg#fontcustom") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-apple_icon:before,
+.icon-google_play:before,
+.icon-web:before {
+  display: inline-block;
+  font-family: "fontcustom";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon-apple_icon:before { content: "\f100"; }
+.icon-google_play:before { content: "\f101"; }
+.icon-web:before { content: "\f102"; }
