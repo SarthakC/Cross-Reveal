@@ -99,13 +99,13 @@ p, li {
     background-image: url(img/05-sangini/assets/sangini_background.jpg);
 }
 .event5 .image{
-	background-image: url(img/05-sangini/assets/sangini.png);
+    background-image: url(img/05-sangini/assets/sangini.png);
 }
 .event6 {
     background-image: url(img/06-firmloop/assets/firmloop_background.jpg);
 }
 .event6 .image {
-	background-image: url(img/06-firmloop/assets/firmloop.png);
+    background-image: url(img/06-firmloop/assets/firmloop.png);
 }
 .image {
     top: -50%;
@@ -123,7 +123,7 @@ p, li {
     transform: translateZ(0);
 }
 .event1 .image, .event2 .image, .event3 .image, .event4 .image {
-	width: 300px;
+    width: 300px;
     height: 500px;
 }
 .event5 .image, .event6 .image{
@@ -158,23 +158,23 @@ p, li {
 }
 .text-event {
     letter-spacing: 1.2px;
-	position: absolute;
+    position: absolute;
     left: 600px;
-/*    top: -70%;*/
+    /*    top: -70%;*/
     max-width: 500px;
-/*    margin-left: 0px;*/
+    /*    margin-left: 0px;*/
     margin-top: -545px;
     font-family: Oxygen;
     color: rgb(255, 255, 255);
 }
 /*
 .text-event-6, .text-event-5 {
-	top: -70%;
-    left: 60%;
+top: -70%;
+left: 60%;
 }
 */
 .opacity-zero {
-	opacity: 0;
+    opacity: 0;
 }
 .gps-thread{
     background-repeat: no-repeat;
@@ -187,34 +187,34 @@ p, li {
     background-image: url(img/01-ubermatch/assets/line.png);
 }
 .pin {
-	position: absolute;
+    position: absolute;
     height: 100px;
     width: 100px;
     background-repeat: no-repeat;
     background-size: contain;
 }
 .red-pin {
-	background-image: url(img/01-ubermatch/assets/map_pin2.png);
+    background-image: url(img/01-ubermatch/assets/map_pin2.png);
     left: 163px;
     margin-top: 173px;
     height: 120px;
     width: 120px;
 }
 .black-pin {
-	background-image: url(img/01-ubermatch/assets/map_pin1.png);
+    background-image: url(img/01-ubermatch/assets/map_pin1.png);
     margin-top: 387px;
     left: 71px;
 }
 .blue-pin {
-	background-image: url(img/01-ubermatch/assets/map_pin3.png);
+    background-image: url(img/01-ubermatch/assets/map_pin3.png);
     margin-top: 485px;
     left: 460px;
 }
 .cosco {
     margin-top: -1050px;
     background-position: center;
-    
-	position: absolute;
+
+    position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(img/02-allstarz/assets/tennis_ball.png);
@@ -225,20 +225,20 @@ p, li {
 
 }
 .basketball{
-     
-        margin-top: -140px;
-        background-position: center;
 
-        position: absolute;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-image: url(img/02-allstarz/assets/basketball_blur.png);
-        width: 200px;
-        height: 200px;
-        left: 800px;
-        top: 100px;
+    margin-top: -140px;
+    background-position: center;
 
-    
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(img/02-allstarz/assets/basketball_blur.png);
+    width: 200px;
+    height: 200px;
+    left: 800px;
+    top: 100px;
+
+
 }
 .spoon{
     left: -30px;
@@ -258,13 +258,13 @@ p, li {
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
-    
+
 }
 .bottomfeeder1 {
-	background-image: url(img/04-go-buzzinga/assets/line_cart.png);
+    background-image: url(img/04-go-buzzinga/assets/line_cart.png);
 }
 .bottomfeeder2 {
-	background-image: url(img/04-go-buzzinga/assets/line_projector.png);
+    background-image: url(img/04-go-buzzinga/assets/line_projector.png);
     left: 570px;
 }
 .bottomfeeder3 {
@@ -405,7 +405,7 @@ p, li {
     background-repeat: no-repeat;
     background-size: contain;
     background-image: url(img/05-sangini/assets/petals2.png);
-    
+
 }
 .rose3 {
     left: 0px;
@@ -440,7 +440,7 @@ p, li {
     border-radius: 33px;
 }
 .bubble{
-    
+
     background-position: center;
     width: 200px;
     height: 200px;
@@ -449,7 +449,7 @@ p, li {
     background-size: contain;
 }
 .bubble1 {
-	background-image: url(img/03-night-observer/assets/circle1.png);
+    background-image: url(img/03-night-observer/assets/circle1.png);
     left: 396px;
     top: -296px;
 }
@@ -500,9 +500,9 @@ p, li {
     top: -700px;
 }
 .petals{
-    
+
     background-position: center;
-    
+
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
@@ -515,7 +515,7 @@ p, li {
     top: -386px;
 }
 .yellowPetal2 {
-	background-image: url(img/05-sangini/assets/yellow_petals1.png);
+    background-image: url(img/05-sangini/assets/yellow_petals1.png);
     width: 50px;
     height: 70px;
     left: 437px;
@@ -535,4 +535,67 @@ p, li {
     left: 860px;
     top: -200px;
 
+}
+.mobile-event {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.margin-auto {
+    margin: auto;
+}
+.mobile-text-event {
+    font-family: "Oxygen";
+    color: rgb(255, 255, 255);
+}
+.mobile-text-event span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.mobile-text-event p{
+    font-size: 40px;
+}
+.uber-mobile {
+    background-image: url(img/01-ubermatch/assets/uber_background.png);
+}
+.allstarz-mobile{
+    background-image: url(img/02-allstarz/assets/all_starz_background.jpg);
+}
+.night-mobile {
+    background-image: url(img/03-night-observer/assets/night_observer_background.jpg);
+}
+.buzz-mobile {
+    background-image: url(img/04-go-buzzinga/assets/go_buzzinga_background.jpg);
+}
+.sangini-mobile {
+    background-image: url(img/05-sangini/assets/sangini_background.jpg);
+}
+.firmloop-mobile {
+    background-image: url(img/06-firmloop/assets/firmloop_background.jpg);
+}
+
+@media only screen and (max-width: 1200px) {
+    .image {
+        left:88px;
+    }
+    .text-event {
+	left: 470px;
+}
+    .gps-thread {
+        left: 22px;
+    }
+    .red-pin {
+        left: 16px;
+        margin-top: 227px;
+    }
+    .black-pin {
+        left: -17px;
+    }
+    .blue-pin {
+        left: 360px;
+    }
 }
