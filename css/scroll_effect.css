@@ -70,7 +70,7 @@ p, li {
     background-image: url(img/01-ubermatch/assets/uber_background.png);
 }
 .event1 .image {
-    margin-top: 100px;
+    margin-top: 154px;
     top: 50%;
     background-image: url(img/01-ubermatch/assets/uber_match.png);
 }
@@ -598,4 +598,35 @@ left: 60%;
     .blue-pin {
         left: 360px;
     }
+}
+@media only screen and (max-width: 1100px) and (min-width:1201) {
+    .image{
+        margin-top: -536px;
+    }
+}
+
+@media only screen and (max-width:1440px)and (min-width:1101px){
+    .image {
+        margin-top: -568px;
+}
+}
+@media only screen and (max-width:2560px) and (min-width:1441px){
+.event1 .image {
+    margin-top: 648px;
+}
+    .text-event-1 {
+	margin-top: 648px!important;
+}
+    .gps-thread {
+        margin-top: 750px;
+}
+    .black-pin {
+        margin-top: 886px;
+}
+    .red-pin {
+        margin-top: 670px;
+}
+    .blue-pin {
+        margin-top: 985px;
+}
 }
