@@ -240,3 +240,144 @@ var basketballParallax = new ScrollMagic.Scene({
 })
 .setTween(TweenMax.from('.bubble8', 1, {y:'-300%', ease:Power0.easeNone}))
 .addTo(controller);
+
+//sangini parallax
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.rose', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.petal2', 1, {y:'100%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.yellowPetal', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.rose3', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.yellowPetal2', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.whitePetal', 1, {y:'-100%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.whitePetal2', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.rose4', 1, {y:'1000%', ease:Power0.easeNone}))
+.addTo(controller);
+
+
+//gobuzzing parallax
+
+var GBParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bbq', 1, {y:'100%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.beer', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bat', 1, {y:'-200%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.shopping-bag', 1, {y:'100%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.bball', 1, {y:'-300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.burger', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.spoon', 1, {x:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.cart', 1, {x:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event3",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.spoon', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);

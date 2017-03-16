@@ -353,7 +353,7 @@ left: 60%;
 }
 .bbq{
     left: 124px;
-    top: -266px;
+    top: -366px;
     background-position: center;
     width: 200px;
     height: 200px;
@@ -364,7 +364,7 @@ left: 60%;
 }
 .beer {
     left: 396px;
-    top: -296px;
+    top: -496px;
     background-position: center;
     width: 200px;
     height: 200px;
@@ -421,7 +421,7 @@ left: 60%;
 }
 .rose4{
     left: 900px;
-    top: -246px;
+    top: -546px;
     background-position: center;
     width: 60px;
     height: 60px;
@@ -527,14 +527,14 @@ left: 60%;
     width: 100px;
     height: 100px;
     left: 326px;
-    top: -630px;
+    top: -550px;
 }
 .whitePetal2 {
     background-image: url(img/05-sangini/assets/white_petals2.png);
     width: 40px;
     height: 40px;
     left: 860px;
-    top: -200px;
+    top: -300px;
 
 }
 .mobile-event {
