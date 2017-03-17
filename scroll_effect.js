@@ -381,3 +381,20 @@ var sanginiParallax = new ScrollMagic.Scene({
 })
 .setTween(TweenMax.from('.spoon', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
+
+//firmloop
+var flParallax = new ScrollMagic.Scene({
+    triggerElement: ".event5",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.graph', 1, {y:'100%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var flParallax = new ScrollMagic.Scene({
+    triggerElement: ".event5",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.graphback', 1, {y:'-100%', ease:Power0.easeNone}))
+.addTo(controller);

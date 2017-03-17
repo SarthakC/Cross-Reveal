@@ -102,7 +102,10 @@ p, li {
     background-image: url(img/05-sangini/assets/sangini.png);
 }
 .event6 {
-    background-image: url(img/06-firmloop/assets/firmloop_background.jpg);
+    background: #532c61;
+    background: -webkit-linear-gradient(300deg,#532c61 0,#372a6d 50%,#17698f 100%);
+    background: linear-gradient(150deg,#532c61 0,#372a6d 50%,#17698f 100%);
+    /*    background-image: url(img/06-firmloop/assets/firmloop_background.jpg);*/
 }
 .event6 .image {
     background-image: url(img/06-firmloop/assets/firmloop.png);
@@ -600,6 +603,29 @@ left: 60%;
         left: 360px;
     }
 }
+.graph {
+    position: absolute;
+    left: 0px;
+    margin-top: -700px;
+	background-image: url(img/06-firmloop/assets/graph.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1076px;
+    height: 472px;
+}
+.graphback {
+    position: absolute;
+    left: 0px;
+    margin-top: -400px;
+    background-image: url(img/06-firmloop/assets/backgraph.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1076px;
+    height: 472px;
+}
+
 /*
 @media only screen and (max-width: 1100px) and (min-width:1201) {
     .image{
