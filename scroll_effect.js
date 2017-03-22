@@ -242,13 +242,12 @@ var basketballParallax = new ScrollMagic.Scene({
 .addTo(controller);
 
 //sangini parallax
-
 var sanginiParallax = new ScrollMagic.Scene({
     triggerElement: ".event4",
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.rose', 1, {y:'-300%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal01', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -256,7 +255,7 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.petal2', 1, {y:'100%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal02', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -264,7 +263,7 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.yellowPetal', 1, {y:'-300%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal03', 1, {y:'-300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -272,7 +271,7 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.rose3', 1, {y:'-300%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal04', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -280,7 +279,7 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.yellowPetal2', 1, {y:'-300%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal05', 1, {y:'-300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -288,7 +287,7 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.whitePetal', 1, {y:'-100%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal06', 1, {y:'-300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -296,7 +295,14 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.whitePetal2', 1, {y:'300%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal07', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.petal08', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 var sanginiParallax = new ScrollMagic.Scene({
@@ -304,10 +310,24 @@ var sanginiParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.rose4', 1, {y:'1000%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.petal09', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
 
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.petal10', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
 
+var sanginiParallax = new ScrollMagic.Scene({
+    triggerElement: ".event4",
+    triggerHook:1,
+    duration:'300%'
+})
+.setTween(TweenMax.from('.petal11', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
 //gobuzzing parallax
 
 var GBParallax = new ScrollMagic.Scene({
@@ -397,4 +417,36 @@ var flParallax = new ScrollMagic.Scene({
     duration:'300%'
 })
 .setTween(TweenMax.from('.graphback', 1, {y:'-100%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var carupParallax = new ScrollMagic.Scene({
+    triggerElement: ".event1",
+    triggerHook:1,
+    duration:'200%'
+})
+.setTween(TweenMax.from('.carup', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var carupParallax = new ScrollMagic.Scene({
+    triggerElement: ".event1",
+    triggerHook:1,
+    duration:'220%'
+})
+.setTween(TweenMax.from('.carup-trails', 1, {y:'300%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var carupParallax = new ScrollMagic.Scene({
+    triggerElement: ".event1",
+    triggerHook:1,
+    duration:'200%'
+})
+.setTween(TweenMax.from('.cardown', 1, {y:'-700%', ease:Power0.easeNone}))
+.addTo(controller);
+
+var carupParallax = new ScrollMagic.Scene({
+    triggerElement: ".event1",
+    triggerHook:1,
+    duration:'220%'
+})
+.setTween(TweenMax.from('.cardown-trail', 1, {y:'-500%', ease:Power0.easeNone}))
 .addTo(controller);
