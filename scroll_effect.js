@@ -238,7 +238,7 @@ var basketballParallax = new ScrollMagic.Scene({
     triggerHook:1,
     duration:'300%'
 })
-.setTween(TweenMax.from('.bubble8', 1, {y:'-300%', ease:Power0.easeNone}))
+.setTween(TweenMax.from('.bubble8', 1, {y:'300%', ease:Power0.easeNone}))
 .addTo(controller);
 
 //sangini parallax

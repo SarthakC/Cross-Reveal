@@ -404,15 +404,15 @@ left: 60%;
 }
 .bubble2 {
     background-image: url(img/03-night-observer/assets/circle2.png);
-    left: 60px;
-    top: -758px;
+    left: 108px;
+    top: -258px;
     width: 100px;
     height: 100px;
 }
 .bubble3 {
     background-image: url(img/03-night-observer/assets/circle3.png);
     left: 1000px;
-    top: -696px;
+    top: -396px;
     width: 100px;
     height: 100px;
 }
